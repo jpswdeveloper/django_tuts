@@ -1,0 +1,7 @@
+django
+djongo
+pymongo
+djangorestframework
+djoser
+djangorestframework-simplejwt
+
