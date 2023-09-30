@@ -12,5 +12,3 @@ class GetNews(APIView):
         serialize=NewsSerializer(req)
         # data=JSONRenderer().render(serialize)
         return Response({"message":"Data fetched successfully!!","data":serialize.data})
-        
-    # def 
