@@ -1,5 +1,5 @@
 from django.urls import path 
-from  .views.class_based_api_view import NewsCrud,NewsDetail
+from  .views.class_based_mixin import NewsCrud,NewsDetail
 from rest_framework.urlpatterns import format_suffix_patterns
 # from .views import get_post
 urlpatterns=[
